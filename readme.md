@@ -1,5 +1,8 @@
 JEDI Code Library
 =================
+![](https://tokei.rs/b1/github/project-jedi/jcl?category=code)
+![](https://tokei.rs/b1/github/project-jedi/jcl?category=files)
+
 
 The JEDI Code Library (JCL) consists of a set of thoroughly tested and fully documented
 utility functions and non-visual classes which can be instantly reused in your Delphi
@@ -36,6 +39,15 @@ This will get you the JCL repository and initializes the submodule that contains
 How to install
 --------------
 Start the **jcl\install.bat**
+
+**Installation notes**
+
+As the installer uses the command line compiler of the installed Delphi version, the installer will only
+function with Delphi versions/editions that have the command line compile (ddc32).
+
+Neither the community version, nor the trial version provide the command line compiler.
+
+For manual installation see the section in **jcl\docs\Readme.txt**.
 
 Daily snapshots
 ---------------
